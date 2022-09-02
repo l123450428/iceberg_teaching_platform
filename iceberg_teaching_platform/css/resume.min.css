@@ -1,0 +1,72 @@
+@media (min-width:992px) {
+body {
+	padding-top: 0;
+	padding-left: 12rem;
+}
+}
+
+@media (min-width:992px) {
+	
+	#sideNav .navbar-nav .nav-item .nav-link {
+	font-weight: 600;
+	text-transform: uppercase;
+-ms-writing-mode: tb-lr;
+-webkit-writing-mode: vertical-lr;
+-moz-writing-mode: vertical-lr;
+-ms-writing-mode: vertical-lr;
+writing-mode: vertical-lr;
+}
+	
+#sideNav {
+	text-align: center;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	width: 12rem;
+	height: 100vh
+}
+#sideNav .navbar-brand {
+	display: flex;
+	margin: auto auto 0;
+	padding: .5rem
+}
+#sideNav .navbar-collapse {
+	display: flex;
+	align-items: flex-start;
+	flex-grow: 0;
+	margin-bottom: auto;
+}
+#sideNav .navbar-collapse .navbar-nav {
+	flex-direction: column;
+}
+#sideNav .navbar-collapse .navbar-nav .nav-item {
+	display: block;
+	margin-top: 3em;
+	text-align: center;
+	padding-left: 12px;
+}
+
+}
+#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+	display: block;
+}
+
+@media (min-width:768px) {
+section.resume-section {
+	min-height: 100vh;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.bg-primary {
+	background-color: #00479D!important;
+}
+
+
+
+}
+
+@media (min-width:992px) {
+}
+.bg-primary {
+	background-color: #00479D!important;
+}

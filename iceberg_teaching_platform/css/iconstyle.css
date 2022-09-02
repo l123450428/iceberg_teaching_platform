@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Wrapper */
+.icon-button {
+	/* [disabled]background-color: rgba(255,255,255,1.00); */
+	border-radius: 3em;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.5em;
+	height: 3em;
+	line-height: 2em;
+	margin: 0.4em 10px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 2em;
+	height: 2em;
+	border: 1.5px solid rgba(255,255,255,1.00);
+	text-decoration: none;
+}
+
+
+/* Circle */
+.icon-button span {
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	width: 0;
+	text-decoration: none;	
+}
+.icon-button:hover span {
+	width: 2em;
+	height: 2em;
+	border-radius: 3em;
+	margin: -1em;
+	text-decoration: none;
+}
+.facebook span {
+	background-color: hsla(0,0%,78%,0.24);
+}
+
+
+.youtube span {
+	background-color: hsla(0,0%,78%,0.24);
+}
+.navbar-nav .icon-button.facebook .icon-facebook {
+	text-decoration: none;
+}
+
+.icon-button .icon-facebook {
+	color: #FFFFFF;
+}
+
+
+.icon-button .fa-youtube {
+	color: #FFFFFF;
+}
+
+
+
+#navbarSupportedContent .navbar-nav p {
+	    margin-top: 7em;
+    margin-bottom: 0em;
+    font-size: 14px;
+}
+
+@media (max-width:992px){
+/* CSS Document */
+
+/* Wrapper */
+.icon-button {
+	/* [disabled]background-color: rgba(255,255,255,1.00); */
+	border-radius: 3em;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.5em;
+	height: 3em;
+	line-height: 2em;
+	margin-top: 0.4em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0.4em;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 2em;
+	height: 2em;
+	border: 1.5px solid rgba(255,255,255,1.00);
+	text-decoration: none;
+}
+
+}
